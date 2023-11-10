@@ -20,9 +20,9 @@ jobs:
     - name: Install dependencies
       run: bundle install
 
-    - name: Run Applications
-      run: |
-        ruby lib/main.rb
+    # - name: Build Applications
+    #   run: |
+    #     ruby lib/main.rb
         
 
     - name: Run tests
