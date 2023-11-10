@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-git_source(:github) { |pranavjames/TicTacToe| "https://github.com/#{repo_name}" }
+ruby '2.7.4'
 
 # gem "rails"
 gem 'reek', '6.0.1'
